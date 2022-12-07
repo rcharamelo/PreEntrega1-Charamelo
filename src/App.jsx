@@ -1,12 +1,15 @@
 import Navbar from './components/Navbar';
-import ItemListContainer from './components/ItemListContainer'
+import ItemCount from './components/ItemCount'
+//import { CardCont } from './components/CardCont';
+
+
 
 const App = () => {
   return (
     <>
     <Navbar />
-    <ItemListContainer mensaje="Hola Mundo ItemListContainer!!!" />
-    </>
+    <ItemCount/>
+    </> 
   )
 }
 
